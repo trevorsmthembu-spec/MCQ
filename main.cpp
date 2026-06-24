@@ -89,6 +89,7 @@ int main ()
         if (guess == correctAnswers[i])
         {
             cout << "\nCorrect";
+            score++;
         }
         else
         {
